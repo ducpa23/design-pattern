@@ -85,6 +85,7 @@ function client(clothingFactory: ClothingFactory) {
 
   const childrenClothing = clothingFactory.createChildrenClothing()
   childrenClothing.getPrice('44');
+  
 }
 
 client(new AsiaClothingFactory());
